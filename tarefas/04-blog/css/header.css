@@ -1,0 +1,63 @@
+.header-container {
+	max-width: 996px;
+	padding: 35px 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: blue; /*fundo para marcação visual*/
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.header-menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+}
+
+.header-menu a {
+	text-decoration: none;
+}
+
+.search {
+	display: flex;
+	flex-wrap: wrap;
+	cursor: pointer;
+}
+
+.search img {
+	display: block;
+	position: absolute;
+	margin: 2.5px 5px 0 5px;
+}
+
+.header-menu ul {
+	padding: 0;
+}
+.header-menu li {
+	padding: 2.5px 2.5px 0 30px;
+}
+
+nav img {
+	width: 24px;
+}
+
+/*retirado do W3 - entender e melhorar*/
+input {
+	/*pesquisar porque dá diferença inserindo [type="text"] acima. Inserindo fica desconfigurado*/
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 30px;
+	border: none;
+	font-size: 16px;
+	background-color: transparent;
+	padding: 5px 20px 5px 40px;
+}
