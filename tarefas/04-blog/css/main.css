@@ -1,0 +1,37 @@
+.main-grid {
+	max-width: 996px;
+	height: auto;
+	margin: 0 auto;
+	padding: 70px 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: brown;
+}
+
+.main-grid h1 {
+	font-size: 60px;
+	line-height: 1;
+	margin-bottom: 20px;
+	position: relative; /*influencia no position da img, se não tiver será absoluto pegando a página como referencia*/
+}
+
+.main-grid h1 img {
+	display: inline;
+	position: absolute; /*influencia no position da img*/
+	top: 40px;
+}
+
+.main p {
+	font-size: 30pt;
+}
+
+.main > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+.grid-1 {
+	align-self: center; /*centraliza o texto*/
+}

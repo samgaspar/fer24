@@ -1,6 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: "inter", Arial, sans-serif;
 	font-size: 16pt;
 	margin: 0px;
 	color: #141414;
+}
+
+img {
+	max-width: 100%;
+	height: auto; /*incluido para otimização (width e height incluido no HTML)*/
+	display: block;
 }
