@@ -1,0 +1,92 @@
+.article-container {
+	max-width: 996px;
+	padding: 40px 10px;
+	margin: 0 auto;
+	align-items: center;
+	background-color: #d9d9d9; /*fundo para marcação visual*/
+	font-size: 14pt;
+}
+
+.article-container h2,
+p,
+a {
+	margin: 15px 15px;
+}
+
+.article-container a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-size: 12pt;
+}
+
+.article-1,
+.article-2,
+.article-3 {
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.article-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.article-group {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 52.5px;
+	margin: 40px 0 0 0;
+}
+.article-group h2 {
+	font-size: 30px;
+}
+
+.article-3 h2 {
+	font-size: 40pt;
+}
+.article-2 {
+	width: 297px;
+}
+
+.article-3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0 0 0;
+}
+
+.bottom-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bottom-card p {
+	font-size: 12pt;
+}
+.bottom-card a {
+	font-size: 12pt;
+}
+
+.btn {
+	width: 150px;
+	background-color: #6b46c1;
+	margin: 40px 0;
+	padding: 9px 0;
+	border-radius: 5px;
+	position: relative;
+}
+
+.btn a {
+	text-align: center;
+	color: #fff;
+	font-size: 16pt;
+}
+
+.btn img {
+	display: inline;
+	position: absolute;
+	margin-left: 10px;
+	top: 10px;
+}

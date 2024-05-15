@@ -15,3 +15,7 @@ img {
 	height: auto; /*incluido para otimização (width e height incluido no HTML)*/
 	display: block;
 }
+
+p {
+	font-size: 14pt;
+}
