@@ -5,7 +5,6 @@
 	padding: 70px 10px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	background-color: brown;
 }
 
 .main-grid h1 {

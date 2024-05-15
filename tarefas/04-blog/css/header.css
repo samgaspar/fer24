@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: blue; /*fundo para marcação visual*/
+	background-color: #d9d9d9; /*fundo para marcação visual*/
 }
 
 nav {
